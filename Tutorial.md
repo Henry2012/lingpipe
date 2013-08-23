@@ -28,7 +28,7 @@ Java
 			* store temporary state
 			* only visible to the methods in which they are declared, and not accessible from the rest of the class
 		* Parameters
-			*
+			* parameters are always classified as "variables" not "fields"
 			
 			```java
 			public static void main(String[] args)
