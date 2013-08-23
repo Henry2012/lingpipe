@@ -19,6 +19,12 @@ Java
 		* Other fields start with a lower case letter
 		* Public static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES
 * Key Points
+	* ant
+		* [install package](http://ant.apache.org/bindownload.cgi)
+		* Set the ANT_HOME environment variable to the directory where u installed Ant [环境变量]
+		* ![](images/ant_home.png)
+		* Add the bin directory of Ant to ur path [环境变量]
+		* ![](images/bin_of_ant_home.png)
 	* [different kinds of variables](http://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html)
 		* Instance Variables (Non-static Fields)
 			* individual states of objects are stored in "non-static fields". For example, the _currentSpeed_ of one bicycle is independent from the _currentSpeed_ of another.
