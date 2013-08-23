@@ -4,10 +4,12 @@ Eclipse
 * issues
 	* "Editor does not contain a main type"
 		* right-click the src folder --> build path --> use as source folder
+		* ![](images/)
 * Important Points
 	* Build Project
 	* Build Path --> Libraries --> JRE System Library
-	![](./images/Jave_build_path.png)
+	* ![](images/Java_build_path.png)
+
 Demos
 ===
 * Echo Demo
