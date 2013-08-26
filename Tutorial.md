@@ -39,6 +39,7 @@ Java
 			```java
 			public static void main(String[] args)
 			```
+	* 泛型参数(generic arguments)
 
 Demos
 ===
