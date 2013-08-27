@@ -7,13 +7,15 @@ Confusion Matrix
 	* the total number of responses that matched the reference, that is, the sum of counts on the diagonal of the matrix --> totalCorrect()
 	* totalAccuracy() = totalCorrect() / totalCount()
 	* confidence95() 
+		* 计算置信度为95%时的置信区间的关键在于计算出标准差theta
+		* Say n=totalCount(), p=totalAccuracy(), q=1-p, then theta = sqrt(pq/n)
+		* +/- confidence95() * theta
 	* ![](images/confidence.png)
-		* the mapping in the above screenshot is calculated upon P(-z < Z < z) = gamma. Specifically, z could be 2.576, 1.96 or 1.645, gamma could be 0.99, 0.95, or 0.90, and the mapping is based on normal distribution.
+		* the mapping in the above screenshot is calculated upon P(-z < Z < z) = gamma. Specifically, z could be 2.576, 1.96 or 1.645, gamma could be 0.99, 0.95, or 0.90, and the mapping is based on standard normal distribution.
 		* z-score (also called z-values, z-scores, normal scores, and standardize variables, because the normal distribution is also known as "Z distribution")
 			* positive: a datum is above the mean
 			* negative: a datum is below the mean
 			* z-score is often used in the z-test in standardized testing
-	* ...
 	* TP, FN, FP & TN
 		* [True Positive VS True Negative](http://www.techexams.net/forums/security/49256-true-positive-v-s-true-negative.html)
 		* [Class PrecisionRecallEvaluation](http://alias-i.com/lingpipe/docs/api/com/aliasi/classify/PrecisionRecallEvaluation.html)

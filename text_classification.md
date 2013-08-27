@@ -10,7 +10,7 @@
 	* TF/IDF
 	* 去除停止词 （Stopwords）
 * some issues in text classification
-	* “高维性”
+	* 高维性
 	* 向量稀疏性
 	
 	
