@@ -13,3 +13,31 @@ Confusion Matrix
 			* positive: a datum is above the mean
 			* negative: a datum is below the mean
 			* z-score is often used in the z-test in standardized testing
+	* ...
+	* TP, FN, FP & TN
+		* [True Positive VS True Negative](http://www.techexams.net/forums/security/49256-true-positive-v-s-true-negative.html)
+		* [Class PrecisionRecallEvaluation](http://alias-i.com/lingpipe/docs/api/com/aliasi/classify/PrecisionRecallEvaluation.html)
+		* Examples
+			* [FN]An authorized user being rejected
+			* [FP]An unauthorized user being given access
+			* [TN]An unauthorized user being rejected
+			* [TP]An authorized user being given access
+* 评价分类器性能的指标
+	* macro-precision
+	* macro-recall
+	* macro-FMeasure
+	* fowlkesMallows()
+	* jaccardCoefficient
+	* yulesQ
+	* yulesY
+	* rejection precision
+	* rejection recall
+	* positive refernce
+	* negative reference
+	* positive response
+	* negative response
+	* reference likelihood
+	* response likelihood
+	* phiSquared
+	* chiSquared
+
