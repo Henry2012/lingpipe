@@ -10,7 +10,7 @@
 	* 预处理
 		* 中文需要分词（词典法，HMM，CRF）
 		* TF/IDF
-		* 去除停止词（Stopwords）
+		* 去除停止词（Stopwords），如“我们”，“在”，“了”
 		* 英文里还涉及stem
 	* some issues
 		* 高维性
