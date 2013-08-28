@@ -43,3 +43,10 @@ Confusion Matrix
 	* phiSquared
 	* chiSquared
 
+```
+Testing on profits.exceed.projection/test01.txt Got best category of: profits.exceed.projection
+Rank  Category  Score  P(Category|Input)   log2 P(Category,Input)
+0=profits.exceed.projection -4.526609711566235 0.9999999999994411 -203.69743702048058
+1=non.finance -5.435410558070076 4.88726434803723E-13 -244.5934751131534
+2=strategic.cooperation -5.497661824658843 7.011136093103314E-14 -247.39478210964793
+```
