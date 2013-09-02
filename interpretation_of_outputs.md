@@ -42,6 +42,7 @@ Confusion Matrix
 	* response likelihood
 	* phiSquared
 	* chiSquared
+* output based on one testing file
 
 ```
 Testing on profits.exceed.projection/test01.txt Got best category of: profits.exceed.projection
@@ -50,3 +51,14 @@ Rank  Category  Score  P(Category|Input)   log2 P(Category,Input)
 1=non.finance -5.435410558070076 4.88726434803723E-13 -244.5934751131534
 2=strategic.cooperation -5.497661824658843 7.011136093103314E-14 -247.39478210964793
 ```
+
+TrainLM.java
+===
+RUN PARAMETERS
+CORPUS NAME=unk
+FILE EXTENSION=.txt
+
+getExistingArgument
+getArgumentLong
+getArgument
+getArgumentInt
