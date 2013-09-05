@@ -8,6 +8,8 @@ Eclipse
 	* Build Project
 	* Build Path --> Libraries --> JRE System Library
 	* ![](images/Java_build_path.png)
+* 快捷键
+	* collapse/open all code blocks in Eclipse: Ctrl+Shift+NUM_KEYPAD_DIVIDE/Ctrl+Shift+NUM_KEYPAD_MULTIPLY
 
 Java
 ===
@@ -41,9 +43,7 @@ Java
 			```
 	* 泛型参数(generic arguments)
 
-Demos
-===
-* Echo Demo
+
 
 ClassifiyNews
 ===
